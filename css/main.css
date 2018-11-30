@@ -1,0 +1,48 @@
+.table ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  /* border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: lightgrey; */
+  padding: 15px 17px 15px 5px;
+  margin: 0;
+  display: grid;
+grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+}
+
+.table ul :last-child{
+    text-align: center;
+}
+
+.lists {
+display: grid;
+  grid-template-columns: 6fr 2fr 1fr;
+  background-color: lightgray;
+   cursor: pointer;
+    outline: none;
+  
+}
+
+.lists :last-child{
+    text-align: center;
+}
+
+.active, .lists:hover {
+    background-color: gray;
+}
+
+
+.content{
+  display: block
+}
+.sublists{
+    display: grid;
+ grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+}
+.sublists :last-child{
+    text-align: center;
+}
